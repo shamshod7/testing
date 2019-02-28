@@ -21,19 +21,19 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi {}, my name is {}! If you have any questions on how to use me, read /help .
 
-I'm a group manager bot maintained by [This Guy](tg://user?id={}). 
-and am fully Open-source you can find me [here](github.com/vraj90523/saraak_bot)!
+I'm a group manager bot maintained by [This Guy](tg://user?id={}). I'm built in python3, using the 
+python-telegram-bot library!
+
+Feel free to contact @aditya19v, with any bugs, questions or feature requests you have.
+
+
 
 You can find the list of available commands with /help.
 
-If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
 
-[Click here to add me in your groups](https://telegram.me/Technobuzznet_bot?startgroup=add)
+
+
 """
-
-
-
-
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
@@ -54,7 +54,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-If you want to donate, PM [Vikash](t.me/vikash_raj), and ask for donate. \
+If you want to donate, PM [Aditya](t.me/Aditya19v), and ask for donate. \
 If you really want to donate, it could really help me to upgrade my VPS."""
 
 IMPORTED = {}
@@ -147,7 +147,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("Hello Sweetheart 😊")
+        update.effective_message.reply_text("Sar, I'm alive :D")
 
 # for test purposes
 def error_callback(bot, update, error):
