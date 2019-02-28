@@ -12,6 +12,7 @@ PyLyrics
 wget
 gTTS
 telegram
+pynewtonmath
 zalgo_text
 feedparser
 py_translator
