@@ -24,7 +24,7 @@ Hi {}, my name is {}! If you have any questions on how to use me, read /help .
 I'm a group manager bot maintained by [This Guy](tg://user?id={}). I'm built in python3, using the 
 python-telegram-bot library!
 
-Feel free to contact @aditya19v, with any bugs, questions or feature requests you have.
+Feel free to contact @vikash_raj, with any bugs, questions or feature requests you have.
 
 
 
@@ -54,7 +54,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-If you want to donate, PM [Aditya](t.me/Aditya19v), and ask for donate. \
+If you want to donate, PM [vikash](t.me/vikash_raj), and ask for donate. \
 If you really want to donate, it could really help me to upgrade my VPS."""
 
 IMPORTED = {}
